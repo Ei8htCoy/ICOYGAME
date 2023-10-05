@@ -1,0 +1,17 @@
+* {
+    text-align: center;
+    padding: auto;
+}
+
+body{
+    background-color: blueviolet;
+}
+body h1 {
+    color:rgb(255, 20, 23);
+    font-style: italic;
+    font-size: 95px;
+}
+button{
+    background-color: blanchedalmond;
+    font-size: 60px;
+}

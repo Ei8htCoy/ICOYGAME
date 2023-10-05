@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bato-bato-pick</title>
+    <link rel="stylesheet" href="styles.css"
+   </head>
+   <body>
+    <h1>ICOY GAME</h1>
+
+    <button onclick="
+    const randomNumber = Math.random();
+
+    let compMove = '';
+
+    if (randomNumber >= 0 && randomNumber < 1 / 3) {
+          compMove = 'Bato';
+    } else if (randomNumber >= 1 / 3 && randomNumber < 2 / 3) {
+         compMove ='Papel';
+    } else if (randomNumber >= 2 /3 && randomNumber < 1) {
+         compMove ='Gunting';
+    }
+
+    console.log(compMove);
+
+    let result = '';
+
+    if(compMove === 'Bato'){
+        result = 'KWITS LANG PARE';
+    } else if (compMove === 'Papel') {
+        result = 'WOW LAKAS TSAMBA';
+    } else if (compMove = 'Gunting') {
+        result = 'ARUY TALU BOBO TANGA INUTIL WALANG MODO'
+    }
+
+    alert(`Pinili mo ang Bato. Pinili ni ICOY GAMES ay ${compMove}. ${result}.`)
+    ">Bato</button>
+
+    <button onclick="
+    const randomNumber = Math.random();
+
+    let compMove = '';
+
+    if (randomNumber >= 0 && randomNumber < 1 / 3) {
+          compMove = 'Bato';
+    } else if (randomNumber >= 1 / 3 && randomNumber < 2 / 3) {
+         compMove ='Papel';
+    } else if (randomNumber >= 2 /3 && randomNumber < 1) {
+         compMove ='Gunting';
+    }
+
+    console.log(compMove);
+
+    let result = '';
+
+    if(compMove === 'Bato'){
+        result = 'WEH PAKYU NAKA TSAMBA KA LANG';
+    } else if (compMove === 'Papel') {
+        result = 'KWITS PARE PARTIDA NAKA PIKIT AKO';
+    } else if (compMove = 'Gunting') {
+        result = 'BOBO KA TALGA TGNIAMO TANGA TANGA SUMBONG KANA SA PAPA MO'
+    }
+
+    alert(`Pinili mo ang Papel. Pinili ni ICOY GAMES ay ${compMove}. ${result}.`)
+    ">Papel</button>
+
+    <button onclick="
+    const randomNumber = Math.random();
+
+    let compMove = '';
+
+    if (randomNumber >= 0 && randomNumber < 1 / 3) {
+          compMove = 'Bato';
+    } else if (randomNumber >= 1 / 3 && randomNumber < 2 / 3) {
+         compMove ='Papel';
+    } else if (randomNumber >= 2 /3 && randomNumber < 1) {
+         compMove ='Gunting';
+    }
+
+    console.log(compMove);
+
+    let result = '';
+
+    if(compMove === 'Bato'){
+        result = 'PASALAMAT KA NAG ORDER AKO NG SB';
+    } else if (compMove === 'Papel') {
+        result = 'TNGINA KUNG AKO SAYO TUMALON KANALANG SA BILDENG';
+    } else if (compMove = 'Gunting') {
+        result = 'UYY PAREHO TAYO BAKA SCISSORS NA THIS'
+    }
+
+    alert(`Pinili mo ang GUNTING. Pinili ni ICOY GAMES ay ${compMove}. ${result}.`)
+    ">Gunting</button>
+   </body> 
+</html>
